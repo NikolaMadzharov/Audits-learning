@@ -4,37 +4,9 @@ author: Koko
 date: July 10, 2024
 
 
-# Table of contents
-<details>
 
-<summary>See table</summary>
 
-- [PasswordStore Audit Report](#passwordstore-audit-report)
-- [Table of contents](#table-of-contents)
-- [About YOUR\_NAME\_HERE](#about-your_name_here)
-- [Disclaimer](#disclaimer)
-- [Risk Classification](#risk-classification)
-- [Audit Details](#audit-details)
-  - [Scope](#scope)
-- [Protocol Summary](#protocol-summary)
-  - [Roles](#roles)
-- [Executive Summary](#executive-summary)
-  - [Issues found](#issues-found)
-- [Findings](#findings)
-  - [High](#high)
-    - [\[H-1\] Passwords stored on-chain are visable to anyone, not matter solidity variable visibility](#h-1-passwords-stored-on-chain-are-visable-to-anyone-not-matter-solidity-variable-visibility)
-    - [\[H-2\] `PasswordStore::setPassword` is callable by anyone](#h-2-passwordstoresetpassword-is-callable-by-anyone)
-- [Low Risk Findings](#low-risk-findings)
-  - [L-01. Initialization Timeframe Vulnerability](#l-01-initialization-timeframe-vulnerability)
-    - [Relevant GitHub Links](#relevant-github-links)
-  - [Summary](#summary)
-  - [Vulnerability Details](#vulnerability-details)
-  - [Impact](#impact)
-  - [Tools Used](#tools-used)
-  - [Recommendations](#recommendations)
-    - [\[I-1\] The `PasswordStore::getPassword` natspec indicates a parameter that doesn't exist, causing the natspec to be incorrect](#i-1-the-passwordstoregetpassword-natspec-indicates-a-parameter-that-doesnt-exist-causing-the-natspec-to-be-incorrect)
-</details>
-</br>
+
 
 
 
