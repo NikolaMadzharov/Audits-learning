@@ -1,0 +1,1 @@
+Welcome to the Web3 Security Audits repository! Here, you'll find reviews of various web3 projects, all conducted by me. These reviews focus on analyzing the security aspects of each project, aiming to enhance understanding and promote best practices within the web3 community.
